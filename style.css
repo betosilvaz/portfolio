@@ -1,0 +1,137 @@
+/* Geral */
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 16px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    background-color: rgb(24, 24, 24);
+    color: white;
+}
+
+
+/* Header */
+header {
+    height: 90vh;
+    width: 100%;
+    background-image: url('img/background-home3.jpg');
+    background-size: cover;
+    background-position: left bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+nav#redes {
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav#redes ul{
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width: 400px;
+}
+nav#redes ul li {
+    display: inline-block;
+}
+nav#redes ul li a i {
+    font-size: 2em;
+    color: white;
+}
+header h1 {
+    font-size: 8em;
+    display: inline-block;
+    width: auto;
+    line-height: 1em;
+}
+
+
+/* Principal */
+section {
+    width: 70%;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.link-projeto {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 7px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+section div.content {
+    padding: 20px 100px;
+    font-size: 1.5em;
+}
+div.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 50px;
+}
+#silhueta {
+    width: 300px;
+    padding: 50px;
+    margin: 0 100px 0 -50;
+}
+#sessao-projetos {
+    display: flex;
+    justify-content: center;
+}
+#sessao-projetos .content {
+    text-align: center;
+}
+.projeto {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+footer {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer span {
+    font-weight: 700;
+}
+
+.area-aviso {
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aviso {
+    width: 500px;
+    background-color: rgb(56, 56, 56);
+    padding: 25px;
+    border-radius: 7px;
+}
+
+#fechar-aviso {
+    background:rgb(53, 53, 53);
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+#fechar-aviso:hover {
+    cursor: pointer;
+}
